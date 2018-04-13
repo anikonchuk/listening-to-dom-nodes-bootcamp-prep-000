@@ -37,5 +37,17 @@
         </div>
       </div>
     </div>
+    
+  <script>
+    const main = document.querySelector('#main');
+    main.addEventListener('click', function(event){
+      console.log("I was clicked!");
+    })
+    
+    const input = document.querySelector('input');
+    input.addEventListener('keydown', function(e){
+      console.log(e.which);
+    })
+  </script>
   </body>
 </html>
